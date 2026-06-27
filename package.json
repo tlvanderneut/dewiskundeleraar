@@ -1,0 +1,9 @@
+{
+  "name": "dewiskundeleraar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node -e \"console.log('Static site: public/ is the deploy output')\""
+  }
+}
