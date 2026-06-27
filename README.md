@@ -16,6 +16,6 @@ De site staat in `public/` en kan direct naar Cloudflare Pages. Gebruik:
 - Build command: leeg laten, of `npm run build` als Cloudflare Vite gebruikt.
 - Output directory: `public` voor directe static hosting, of `dist` bij Vite build.
 
-## Formulieren
+## Plannen
 
-De oorspronkelijke site gebruikt Contact Form 7. In deze statische versie moeten formulieren nog aan een externe formulierdienst of mail-endpoint gekoppeld worden voordat berichten echt binnenkomen.
+De oorspronkelijke WordPress-site gebruikte Simply Schedule Appointments via WordPress-iframes. Die iframes werken niet meer zodra het domein niet meer naar WordPress wijst. In deze statische versie staan daarom contactknoppen naar WhatsApp/LinkedIn op de planningskaarten.
