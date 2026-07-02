@@ -35,7 +35,3 @@ Elke pagina heeft een eigen title, description, canonical URL, Open Graph/Twitte
 ## Contact
 
 De contactpagina bevat directe WhatsApp-, mail- en LinkedIn-links plus een eenvoudig mailformulier. Het formulier gebruikt `mailto:info@dewiskundeleraar.nl`, zodat er geen extern formulieraccount nodig is.
-
-## Analytics
-
-Voor Cloudflare Web Analytics is nog een site-token nodig. Voeg daarna in Cloudflare Pages of in de HTML de officiële Cloudflare-snippet toe met dat token.
