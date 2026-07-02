@@ -246,6 +246,10 @@ p {
   margin-top: 30px;
 }
 
+.prices-actions {
+  margin-top: 28px;
+}
+
 .hero__visual {
   position: relative;
   min-height: 590px;
@@ -545,6 +549,40 @@ blockquote p {
 
 .contact-card {
   box-shadow: 10px 10px 0 var(--gold);
+}
+
+.contact-form {
+  display: grid;
+  gap: 16px;
+  margin-top: 34px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.contact-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--green);
+  font-family: "Inconsolata", monospace;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: 2px solid var(--line);
+  border-radius: 0;
+  padding: 12px 14px;
+  background: white;
+  color: var(--ink);
+  font: 500 16px/1.5 "Montserrat Alternates", "Segoe UI", sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 3px solid rgba(239, 77, 26, 0.24);
+  border-color: var(--orange);
 }
 
 .contact-note {

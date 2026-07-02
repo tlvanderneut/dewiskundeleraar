@@ -27,3 +27,15 @@ De site staat in `public/` en kan direct naar Cloudflare Pages. Gebruik:
 ## Plannen
 
 De site is volledig statisch. Plannen loopt via WhatsApp, LinkedIn of mail in plaats van WordPress-afspraakplugins.
+
+## SEO
+
+Elke pagina heeft een eigen title, description, canonical URL, Open Graph/Twitter metadata en JSON-LD voor De Wiskundeleraar. De sitemap staat op `public/sitemap.xml`.
+
+## Contact
+
+De contactpagina bevat directe WhatsApp-, mail- en LinkedIn-links plus een eenvoudig mailformulier. Het formulier gebruikt `mailto:info@dewiskundeleraar.nl`, zodat er geen extern formulieraccount nodig is.
+
+## Analytics
+
+Voor Cloudflare Web Analytics is nog een site-token nodig. Voeg daarna in Cloudflare Pages of in de HTML de officiële Cloudflare-snippet toe met dat token.
