@@ -1,6 +1,14 @@
 # De Wiskundeleraar
 
-Statische herbouw van de bestaande WordPress-site op https://www.dewiskundeleraar.nl.
+Eigen statische website voor De Wiskundeleraar, opgebouwd voor Cloudflare Pages.
+
+## Pagina's
+
+- Home
+- Over mij
+- Plannen maar
+- Prijzen
+- Contact
 
 ## Lokaal draaien
 
@@ -13,9 +21,9 @@ npm run dev
 
 De site staat in `public/` en kan direct naar Cloudflare Pages. Gebruik:
 
-- Build command: leeg laten, of `npm run build` als Cloudflare Vite gebruikt.
-- Output directory: `public` voor directe static hosting, of `dist` bij Vite build.
+- Build command: leeg laten, of `npm run build`.
+- Output directory: `public`.
 
 ## Plannen
 
-De oorspronkelijke WordPress-site gebruikte Simply Schedule Appointments via WordPress-iframes. Die iframes werken niet meer zodra het domein niet meer naar WordPress wijst. In deze statische versie staan daarom contactknoppen naar WhatsApp/LinkedIn op de planningskaarten.
+De site is volledig statisch. Plannen loopt via WhatsApp, LinkedIn of mail in plaats van WordPress-afspraakplugins.
